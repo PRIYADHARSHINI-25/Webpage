@@ -1204,7 +1204,6 @@ section {
   color: white;
 }
 
-<<<<<<< HEAD
 .book-a-table .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
   color: #89a0a4;
 }
@@ -1219,22 +1218,6 @@ section {
 
 .book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
   border-color: #ffffff;
-=======
-.sign-in .php-email-form input::-webkit-input-placeholder, .sign-in .php-email-form textarea::-webkit-input-placeholder {
-  color: #a49b89;
-}
-
-.sign-in .php-email-form input::-moz-placeholder, .sign-in .php-email-form textarea::-moz-placeholder {
-  color: #a49b89;
-}
-
-.sign-in .php-email-form input::placeholder, .sign-in .php-email-form textarea::placeholder {
-  color: #a49b89;
-}
-
-.sign-in .php-email-form input:focus, .sign-in .php-email-form textarea:focus {
-  border-color: #68D2DF;
->>>>>>> e05bdcac3ce97489eef4b5f40114568030369de1
 }
 
 .sign-in .php-email-form input {
