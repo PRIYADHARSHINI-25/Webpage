@@ -1,6 +1,4 @@
-Thanks for downloading this template!
-
-Template Name: Restaurantly
-Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-Author: BootstrapMade.com
+Template Name: TECIAX
+Template URL: https://TECIAX/
+Author: SP
 License: https://bootstrapmade.com/license/
