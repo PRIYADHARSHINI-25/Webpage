@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Restaurantly Bootstrap Template - Inner Page</title>
+  <title>TECIAX - Sign In</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,26 +43,26 @@
     <div class="container d-flex justify-content-center justify-content-md-between">
 
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+        <i class="bi bi-phone d-flex align-items-center"><span>+91 63743 71165</span></i>
+        <!--<i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i> -->
       </div>
 
       <div class="languages d-none d-md-flex align-items-center">
         <ul>
-          <li>En</li>
-          <li><a href="#">De</a></li>
+          <!--<li>En</li> -->
+          <!--<li><a href="#">De</a></li>-->
         </ul>
       </div>
     </div>
   </div>
 
-  <!-- ======= Header ======= -->
+  <!-- ======= Header ======= 
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
       <h1 class="logo me-auto me-lg-0"><a href="index.html">Restaurantly</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      Uncomment below if you prefer to use an image logo
+      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -93,34 +93,73 @@
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>.navbar 
       <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
 
     </div>
-  </header><!-- End Header -->
+  </header>End Header -->
 
   <main id="main">
     <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Inner Page</h2>
+          <h2>Sign In</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Inner Page</li>
+            <li>Sign In</li>
           </ol>
         </div>
+<!-- ======= Sign In Section ======= -->
+<section id="sign-in" class="sign-in">
+  <div class="container" data-aos="fade-up">
 
-      </div>
-    </section>
+    <div class="section-title">
+      <h2>SIGN IN</h2>
+      <p>Create your Account</p>
+    </div>
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
+    <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div> 
+        </div> <br>
+        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+          <div class="validate"></div>
+        </div> <br>
+        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+          <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div> <br>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="text" name="date" class="form-control" id="password" placeholder="Create Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div> <br>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="text" class="form-control" name="re-enter-password" id="re-enter-password" placeholder="Confirm Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+          <div class="validate"></div>
+        </div> <br>
+        <div class="col-lg-4 col-md-6 form-group mt-3">
+          <input type="number" class="form-control" name="otp" id="otp" placeholder="OTP" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+          <div class="validate"></div>
+        </div> <br>
       </div>
-    </section>
+      <div class="form-group mt-3">
+        <textarea class="form-control" name="Address" rows="5" placeholder="Address"></textarea>
+        <div class="validate"></div>
+      </div>
+      <div class="mb-3">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+      </div>
+      <div class="text-center"><button type="submit">Book a Table</button></div>
+    </form>
+
+  </div>
+</section><!-- Sign In Section -->
 
   </main><!-- End #main -->
 
