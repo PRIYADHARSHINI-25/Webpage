@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover i {
-  color: #444444;
+  color: #D6F8FC;
 }
 
 .back-to-top.active {
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .dropdown ul a {
   padding: 10px 20px;
-  color: #444444;
+  color: #D6F8FC;
 }
 
 .navbar .dropdown ul a i {
@@ -1272,7 +1272,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
+  color: #9EF1FB;
   font-size: 26px;
 }
 
@@ -1706,14 +1706,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #68D2DF;
+  background: #9EF1FB;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #d3af71;
+  background: #9EF1FB;
 }
 
 #footer .copyright {
@@ -1725,5 +1725,5 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #D6F8FC;
 }
