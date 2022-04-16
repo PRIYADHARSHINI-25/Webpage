@@ -492,7 +492,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
-#hero .btn-menu, #hero .btn-book {
+#hero .btn-explore, #hero .btn-book {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 0.5px;
@@ -506,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #68D2DF;
 }
 
-#hero .btn-menu:hover, #hero .btn-book:hover {
+#hero .btn-explore:hover, #hero .btn-book:hover {
   background: #68D2DF;
   color: #fff;
 }
@@ -883,9 +883,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Menu Section
+# Explore Section
 --------------------------------------------------------------*/
-.menu #menu-flters {
+.explore #explore-flters {
   padding: 0;
   margin: 0 auto 0 auto;
   list-style: none;
@@ -893,7 +893,7 @@ section {
   border-radius: 50px;
 }
 
-.menu #menu-flters li {
+.explore #explore-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px 10px 12px;
@@ -907,26 +907,26 @@ section {
   font-family: "Playfair Display", serif;
 }
 
-.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+.explore #explore-flters li:hover, .explore #explore-flters li.filter-active {
   color: #68D2DF;
 }
 
-.menu #menu-flters li:last-child {
+.explore #explore-flters li:last-child {
   margin-right: 0;
 }
 
-.menu .menu-item {
+.explore .explore-item {
   margin-top: 50px;
 }
 
-.menu .menu-img {
+.explore .explore-img {
   width: 70px;
   border-radius: 50%;
   float: left;
   border: 5px solid rgba(255, 255, 255, 0.2);
 }
 
-.menu .menu-content {
+.explore .explore-content {
   margin-left: 85px;
   overflow: hidden;
   display: flex;
@@ -934,7 +934,7 @@ section {
   position: relative;
 }
 
-.menu .menu-content::after {
+.explore .explore-content::after {
   content: "......................................................................"
  "...................................................................."
  "....................................................................";
@@ -947,7 +947,7 @@ section {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.menu .menu-content a {
+.explore .explore-content a {
   padding-right: 10px;
   background: #243134;
   position: relative;
@@ -957,11 +957,11 @@ section {
   transition: 0.3s;
 }
 
-.menu .menu-content a:hover {
+.explore .explore-content a:hover {
   color: #68D2DF;
 }
 
-.menu .menu-content span {
+.explore .explore-content span {
   background: #243134;
   position: relative;
   z-index: 3;
@@ -970,7 +970,7 @@ section {
   color: #68D2DF;
 }
 
-.menu .menu-ingredients {
+.explore .explore-ingredients {
   margin-left: 85px;
   font-style: italic;
   font-size: 14px;
