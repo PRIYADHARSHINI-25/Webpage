@@ -1156,7 +1156,7 @@ section {
 
 .sign-in .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #fffFFF;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1200,23 +1200,23 @@ section {
   box-shadow: none;
   font-size: 14px;
   background: #090c0c;
-  border-color: #4b6062;
+  border-color: #ffffff;
   color: white;
 }
 
-.book-a-table .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
+.sign-in .php-email-form input::-webkit-input-placeholder, .book-a-table .php-email-form textarea::-webkit-input-placeholder {
   color: #89a0a4;
 }
 
-.book-a-table .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
+.sign-in .php-email-form input::-moz-placeholder, .book-a-table .php-email-form textarea::-moz-placeholder {
   color: #89a0a4;
 }
 
-.book-a-table .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
+.sign-in .php-email-form input::placeholder, .book-a-table .php-email-form textarea::placeholder {
   color: #89a0a4;
 }
 
-.book-a-table .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
+.sign-in .php-email-form input:focus, .book-a-table .php-email-form textarea:focus {
   border-color: #ffffff;
 }
 
